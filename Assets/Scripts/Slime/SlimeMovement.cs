@@ -6,7 +6,7 @@ using UnityEngine;
 public class SlimeMovement : MonoBehaviour
 {
     public float Acceleration;
-    public Camera PlayerCamera;
+    public Transform CinemaVCam;
 
     private Rigidbody rb;
     private Vector3 savedVelocity;
@@ -19,12 +19,14 @@ public class SlimeMovement : MonoBehaviour
 
     void FixedUpdate()
     {
+        if (inputLocked) return;
         Vector3 input = GetInput() * Acceleration;
-        input = PlayerCamera.transform.TransformDirection(input);
+        input = CinemaVCam.transform.TransformDirection(input);
         input.y = 0;
-        rb.AddForce(input);
+        Debug.Log(input);
+        rb.AddForce(input, ForceMode.Acceleration);
     }
-
+    
     public void SetActive(bool active)
     {
         inputLocked = !active;
