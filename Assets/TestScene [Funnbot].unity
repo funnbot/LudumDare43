@@ -89,7 +89,7 @@ LightmapSettings:
     m_PVRFilteringAtrousPositionSigmaAO: 1
     m_ShowResolutionOverlay: 1
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 0
+  m_UseShadowmask: 1
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -122,6 +122,8 @@ GameObject:
   m_Component:
   - component: {fileID: 153492444}
   - component: {fileID: 153492445}
+  - component: {fileID: 153492447}
+  - component: {fileID: 153492446}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -156,6 +158,38 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fab1852b0ec1642fc9c5f59763697efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Acceleration: 5
+  Deceleration: 0
+  PlayerCamera: {fileID: 1941639060}
+--- !u!54 &153492446
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 153492443}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 80
+  m_CollisionDetection: 0
+--- !u!135 &153492447
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 153492443}
+  m_Material: {fileID: 13400000, guid: 2cc6e6a5da7a44177954689645c6957a, type: 2}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.5
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &157211554
 GameObject:
   m_ObjectHideFlags: 0
@@ -392,7 +426,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1941639058}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1, z: -10}
+  m_LocalPosition: {x: 0, y: 2.13, z: -6.06}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
