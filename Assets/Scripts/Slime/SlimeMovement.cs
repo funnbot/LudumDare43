@@ -27,11 +27,11 @@ public class SlimeMovement : MonoBehaviour
     {
         if (active)
         {
-            savedVelocity
+            
         }
     }
 
-    private GetInput()
+    private void GetInput()
     {
 
     }
