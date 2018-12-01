@@ -20,7 +20,8 @@ public class SlimeMovement : MonoBehaviour
     void FixedUpdate()
     {
         Vector3 input = GetInput() * Acceleration;
-        input = PlayerCamera.transform.InverseTransformDirection(input);
+        input = PlayerCamera.transform.TransformDirection(input);
+        input.y = 0;
         rb.AddForce(input);
     }
 
