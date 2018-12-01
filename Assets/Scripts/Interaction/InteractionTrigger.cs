@@ -96,13 +96,17 @@ public class InteractionTrigger : MonoBehaviour
 			this._triedToFindDefaultCollider = true;
 		}
 
+		Color color = Color.cyan;
+		color.a = 0.2f;
+		Gizmos.color = color;
+
 		if (this._defaultCollider != null)
 		{
-			//GizmosUtility.DrawCombinedCube(this.transform.position + Vector3.Scale(this._defaultCollider.center, this.transform.localScale), this._defaultCollider.size + Vector3.one * GIZMO_SIZE_BIAS, Color.cyan, this.transform, 0.2f);
+			Gizmos.DrawCube(this.transform.position + Vector3.Scale(this._defaultCollider.center, this.transform.localScale), this._defaultCollider.size + Vector3.one * GIZMO_SIZE_BIAS);
 		}
 		else
 		{
-			//GizmosUtility.DrawCombinedCube(this.transform.position, this._gizmoSize + Vector3.one * GIZMO_SIZE_BIAS, Color.cyan, this.transform, 0.2f);
+			Gizmos.DrawCube(this.transform.position, this._gizmoSize + Vector3.one * GIZMO_SIZE_BIAS);
 		}
 	}
 #endif
