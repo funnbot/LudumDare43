@@ -23,10 +23,9 @@ public class SlimeMovement : MonoBehaviour
         Vector3 input = GetInput() * Acceleration;
         input = CinemaVCam.transform.TransformDirection(input);
         input.y = 0;
-        Debug.Log(input);
         rb.AddForce(input, ForceMode.Acceleration);
     }
-    
+
     public void SetActive(bool active)
     {
         inputLocked = !active;
