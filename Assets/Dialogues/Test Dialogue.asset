@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f5ede000de2948479395ba08a5894d1, type: 3}
+  m_Name: Test Dialogue
+  m_EditorClassIdentifier: 
+  _dialogueData:
+  - _sentenceText: Hello there!
+    _audioCover: {fileID: 0}
+    _collocutor: {fileID: 11400000, guid: c3146d00ec6366b4cb0a223483d091e4, type: 2}
+  - _sentenceText: Is that a Star Wars reference?
+    _audioCover: {fileID: 0}
+    _collocutor: {fileID: 11400000, guid: ed41c20d0bc87ce4bb7e3e681b6e2fbe, type: 2}

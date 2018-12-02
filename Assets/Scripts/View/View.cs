@@ -53,11 +53,11 @@ public class View : MonoBehaviour
 
 		if (this._initiallyActive)
 		{
-			this.Show();
+			this.Open();
 		}
 		else
 		{
-			this.Hide();
+			this.Close();
 		}
 	}
 
