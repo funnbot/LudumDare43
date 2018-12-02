@@ -35,7 +35,7 @@ public class DialogueView : View
 		this._collocutorIconImageField.sprite = dialogueData._Collocutor._ProfileIcon;
 	}
 
-	public void DisplayDialogue(Dialogue dialogue)
+	public virtual void DisplayDialogue(Dialogue dialogue)
 	{
 		this._displayedDialogue = dialogue;
 
