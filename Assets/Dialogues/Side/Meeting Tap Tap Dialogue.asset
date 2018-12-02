@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f5ede000de2948479395ba08a5894d1, type: 3}
+  m_Name: Meeting Tap Tap Dialogue
+  m_EditorClassIdentifier: 
+  _dialogueData:
+  - _sentenceText: Oh, hello BOB!!!
+    _audioCover: {fileID: 0}
+    _collocutor: {fileID: 11400000, guid: 49dd356c74afd02479be96c5789129c2, type: 2}
+  - _sentenceText: I AM NOT BOB! I AM BLOB!!!
+    _audioCover: {fileID: 0}
+    _collocutor: {fileID: 11400000, guid: d3ecf6b24d489c54f9a5d00a58a75655, type: 2}
+  - _sentenceText: So what are you doing today Bob?
+    _audioCover: {fileID: 0}
+    _collocutor: {fileID: 11400000, guid: 49dd356c74afd02479be96c5789129c2, type: 2}
+  - _sentenceText: (sight), I don't know yet, I will let the winds of this desert
+      guide me.
+    _audioCover: {fileID: 0}
+    _collocutor: {fileID: 11400000, guid: d3ecf6b24d489c54f9a5d00a58a75655, type: 2}
+  - _sentenceText: huh?
+    _audioCover: {fileID: 0}
+    _collocutor: {fileID: 11400000, guid: 49dd356c74afd02479be96c5789129c2, type: 2}

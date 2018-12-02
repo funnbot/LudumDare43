@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f5ede000de2948479395ba08a5894d1, type: 3}
+  m_Name: 3. New World Dialogue
+  m_EditorClassIdentifier: 
+  _dialogueData:
+  - _sentenceText: Hey! I haven't seen you around here.
+    _audioCover: {fileID: 0}
+    _collocutor: {fileID: 11400000, guid: d3ecf6b24d489c54f9a5d00a58a75655, type: 2}
+  - _sentenceText: Oh, hello. Yes I am not local.
+    _audioCover: {fileID: 0}
+    _collocutor: {fileID: 11400000, guid: c0e4c0d8c5a71014b8207cc7a7c9a6bd, type: 2}
+  - _sentenceText: Whaaaa? How did you get here?
+    _audioCover: {fileID: 0}
+    _collocutor: {fileID: 11400000, guid: d3ecf6b24d489c54f9a5d00a58a75655, type: 2}
+  - _sentenceText: I mean, there is only sand around us.
+    _audioCover: {fileID: 0}
+    _collocutor: {fileID: 11400000, guid: d3ecf6b24d489c54f9a5d00a58a75655, type: 2}
+  - _sentenceText: Do you remember that strange day when water was falling on us?
+    _audioCover: {fileID: 0}
+    _collocutor: {fileID: 11400000, guid: c0e4c0d8c5a71014b8207cc7a7c9a6bd, type: 2}
+  - _sentenceText: Yeah, I thought we all were going to die because of drought.
+    _audioCover: {fileID: 0}
+    _collocutor: {fileID: 11400000, guid: d3ecf6b24d489c54f9a5d00a58a75655, type: 2}
+  - _sentenceText: Then this thing appeared and puddles magically were filled with
+      water.
+    _audioCover: {fileID: 0}
+    _collocutor: {fileID: 11400000, guid: d3ecf6b24d489c54f9a5d00a58a75655, type: 2}
+  - _sentenceText: I somehow knew this wasn't going to last for long.
+    _audioCover: {fileID: 0}
+    _collocutor: {fileID: 11400000, guid: c0e4c0d8c5a71014b8207cc7a7c9a6bd, type: 2}
+  - _sentenceText: And I met a slime that told me about this village before.
+    _audioCover: {fileID: 0}
+    _collocutor: {fileID: 11400000, guid: c0e4c0d8c5a71014b8207cc7a7c9a6bd, type: 2}
+  - _sentenceText: And that from this village there is a path that leads to a safe
+      place for slimes.
+    _audioCover: {fileID: 0}
+    _collocutor: {fileID: 11400000, guid: c0e4c0d8c5a71014b8207cc7a7c9a6bd, type: 2}
+  - _sentenceText: That sounds awesome! Although, I don't know anything about it.
+    _audioCover: {fileID: 0}
+    _collocutor: {fileID: 11400000, guid: d3ecf6b24d489c54f9a5d00a58a75655, type: 2}
+  - _sentenceText: If you follow the trail leading out of village there is a chance.
+    _audioCover: {fileID: 0}
+    _collocutor: {fileID: 11400000, guid: c0e4c0d8c5a71014b8207cc7a7c9a6bd, type: 2}
+  - _sentenceText: You mean the trail of death? Right? .....
+    _audioCover: {fileID: 0}
+    _collocutor: {fileID: 11400000, guid: d3ecf6b24d489c54f9a5d00a58a75655, type: 2}
+  - _sentenceText: Yes, that is probably what you call it.
+    _audioCover: {fileID: 0}
+    _collocutor: {fileID: 11400000, guid: c0e4c0d8c5a71014b8207cc7a7c9a6bd, type: 2}
+  - _sentenceText: Ok..... It was nice meeting you!
+    _audioCover: {fileID: 0}
+    _collocutor: {fileID: 11400000, guid: d3ecf6b24d489c54f9a5d00a58a75655, type: 2}
+  - _sentenceText: Bye! And take care, this village doesn't have much time left.
+    _audioCover: {fileID: 0}
+    _collocutor: {fileID: 11400000, guid: c0e4c0d8c5a71014b8207cc7a7c9a6bd, type: 2}

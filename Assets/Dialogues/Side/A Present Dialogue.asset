@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f5ede000de2948479395ba08a5894d1, type: 3}
+  m_Name: A Present Dialogue
+  m_EditorClassIdentifier: 
+  _dialogueData:
+  - _sentenceText: Blob! Wait, look how big you got.
+    _audioCover: {fileID: 0}
+    _collocutor: {fileID: 11400000, guid: b648a3c2a6244bc4c806f044c20a553b, type: 2}
+  - _sentenceText: Hi granny H2O, how have you been doing?
+    _audioCover: {fileID: 0}
+    _collocutor: {fileID: 11400000, guid: d3ecf6b24d489c54f9a5d00a58a75655, type: 2}
+  - _sentenceText: Don't worry about me, I am fine.
+    _audioCover: {fileID: 0}
+    _collocutor: {fileID: 11400000, guid: b648a3c2a6244bc4c806f044c20a553b, type: 2}
+  - _sentenceText: I have lived during flourishing days of this village.
+    _audioCover: {fileID: 0}
+    _collocutor: {fileID: 11400000, guid: b648a3c2a6244bc4c806f044c20a553b, type: 2}
+  - _sentenceText: Here, take this potion I got a long time ago from a mage.
+    _audioCover: {fileID: 0}
+    _collocutor: {fileID: 11400000, guid: b648a3c2a6244bc4c806f044c20a553b, type: 2}
+  - _sentenceText: Why would I need it?
+    _audioCover: {fileID: 0}
+    _collocutor: {fileID: 11400000, guid: d3ecf6b24d489c54f9a5d00a58a75655, type: 2}
+  - _sentenceText: It will help you restore water, use it only in critical situations.
+    _audioCover: {fileID: 0}
+    _collocutor: {fileID: 11400000, guid: b648a3c2a6244bc4c806f044c20a553b, type: 2}
+  - _sentenceText: Thanks!
+    _audioCover: {fileID: 0}
+    _collocutor: {fileID: 11400000, guid: d3ecf6b24d489c54f9a5d00a58a75655, type: 2}
