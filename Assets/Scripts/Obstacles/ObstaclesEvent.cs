@@ -5,14 +5,43 @@ using UnityEngine;
 
 public class ObstaclesEvent : MonoBehaviour
 {
-	[SerializeField] private float _timeBetweenTriggers = 5f;
+	private Animator _animator;
 
-	private void OnCollisionEnter(Collision collision)
+	public void PlayUp()
 	{
-		if (collision.gameObject.GetComponent("SlimeController"))
+		this._animator.SetTrigger("Up");
+	}
+
+	public void PlayDown()
+	{
+		this._animator.SetTrigger("Down");
+	}
+
+	private Collider _collider;
+
+	public void DisableTriggerCollider()
+	{
+		this._collider.enabled = false;
+	}
+
+	public void EnableTriggerCollider()
+	{
+		this._collider.enabled = true;
+	}
+
+	private void OnTriggerEnter(Collider other)
+	{
+		SlimeHealth slimeHealth = other.GetComponent<SlimeHealth>();
+		if (slimeHealth != null)
 		{
-			Controller.Health = -1;
+			slimeHealth.Diminish();
 		}
+	}
+
+	private void Awake()
+	{
+		this._animator = this.GetComponent<Animator>();
+		this._collider = this.GetComponent<Collider>();
 	}
 }
 
