@@ -2,14 +2,16 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-[RequireComponent(typeof(Rigidbody))]
+[RequireComponent(typeof(Rigidbody), typeof(SlimeHealth))]
 public class SlimeMovement : MonoBehaviour
 {
     public float Acceleration;
+    public float MaxSpeed;
     public Transform CinemaVCam;
     public Animator ModelAnim;
 
     private Rigidbody rb;
+    private SlimeHealth health;
     private Vector3 input;
     private Vector3 savedVelocity;
     private bool inputLocked;
@@ -17,6 +19,7 @@ public class SlimeMovement : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody>();
+        health = GetComponent<SlimeHealth>();
     }
 
     void FixedUpdate()
@@ -25,7 +28,9 @@ public class SlimeMovement : MonoBehaviour
         Vector3 velocityChange = input * Acceleration;
         velocityChange = CinemaVCam.transform.TransformDirection(velocityChange);
         velocityChange.y = 0;
-        rb.AddForce(velocityChange, ForceMode.Acceleration);
+        rb.AddForce(velocityChange, ForceMode.Force);
+
+        rb.velocity = ClampVelocity(rb.velocity, -MaxSpeed, MaxSpeed);
     }
 
     void Update()
@@ -37,8 +42,13 @@ public class SlimeMovement : MonoBehaviour
         ModelAnim.SetFloat("Velocity", localVelocity.z);
 
         velocity.y = 0;
-        Vector3 lookAt = velocity + transform.position;
-        transform.LookAt(lookAt);
+        if (velocity.sqrMagnitude > 1)
+        {
+            Vector3 lookAt = velocity + transform.position;
+            transform.LookAt(lookAt);
+
+            health.Damage();
+        }
     }
 
     public void SetActive(bool active)
@@ -57,5 +67,11 @@ public class SlimeMovement : MonoBehaviour
             savedVelocity = rb.velocity;
             ModelAnim.enabled = true;
         }
+    }
+
+    private Vector3 ClampVelocity(Vector3 velocity, float min, float max) {
+        velocity.x = Mathf.Clamp(velocity.x, min, max);
+        velocity.z = Mathf.Clamp(velocity.z, min, max);
+        return velocity;
     }
 }
