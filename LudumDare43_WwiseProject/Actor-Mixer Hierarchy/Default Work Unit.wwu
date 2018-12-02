@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{1F8D7C5A-A4D1-405D-A436-D800759F6ECF}" SchemaVersion="89">
+	<AudioObjects>
+		<WorkUnit Name="Default Work Unit" ID="{1F8D7C5A-A4D1-405D-A436-D800759F6ECF}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="MENU_SELECT" ID="{70B5881D-7013-4AE0-8B3B-9D5840AC315B}" ShortID="206537577">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C3734FB1-05AC-4EF1-9D79-2DAACCF9DC88}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B1B3043A-DA72-4973-A7BB-355C98CE9D05}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="MENUSELECT_BNCE1" ID="{F7C9E0FF-E5FC-4848-9EF6-8B45A18CE78B}" ShortID="913136075">
+							<Language>SFX</Language>
+							<AudioFile>MENUSELECT_BNCE1.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="MENUSELECT_BNCE1" ID="{F7C9E0FF-E5FC-4848-9EF6-8B45A18CE78B}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	4203375351	MENU_SELECT			\Default Work Unit\MENU_SELECT	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	913136075	MENU_SELECT	Y:\Documents\GitHub\LudumDare43\LudumDare43_WwiseProject\.cache\Mac\SFX\MENUSELECT_BNCE1_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\MENU_SELECT		288064
+
