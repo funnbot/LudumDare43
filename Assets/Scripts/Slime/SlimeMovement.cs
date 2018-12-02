@@ -41,9 +41,9 @@ public class SlimeMovement : MonoBehaviour
         Vector3 localVelocity = transform.InverseTransformDirection(rb.velocity);
         ModelAnim.SetFloat("Velocity", localVelocity.z);
 
-        velocity.y = 0;
-        if (velocity.sqrMagnitude > 1)
+        if (IsMoving())
         {
+            velocity.y = 0;
             Vector3 lookAt = velocity + transform.position;
             transform.LookAt(lookAt);
 
@@ -69,7 +69,13 @@ public class SlimeMovement : MonoBehaviour
         }
     }
 
-    private Vector3 ClampVelocity(Vector3 velocity, float min, float max) {
+    public bool IsMoving()
+    {
+        return rb.velocity.sqrMagnitude > 1;
+    }
+
+    private Vector3 ClampVelocity(Vector3 velocity, float min, float max)
+    {
         velocity.x = Mathf.Clamp(velocity.x, min, max);
         velocity.z = Mathf.Clamp(velocity.z, min, max);
         return velocity;
