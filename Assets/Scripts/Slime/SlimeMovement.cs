@@ -7,8 +7,10 @@ public class SlimeMovement : MonoBehaviour
 {
     public float Acceleration;
     public Transform CinemaVCam;
+    public Animator ModelAnim;
 
     private Rigidbody rb;
+    private Vector3 input;
     private Vector3 savedVelocity;
     private bool inputLocked;
 
@@ -20,10 +22,21 @@ public class SlimeMovement : MonoBehaviour
     void FixedUpdate()
     {
         if (inputLocked) return;
-        Vector3 input = GetInput() * Acceleration;
-        input = CinemaVCam.transform.TransformDirection(input);
-        input.y = 0;
-        rb.AddForce(input, ForceMode.Acceleration);
+        Vector3 velocityChange = input * Acceleration;
+        velocityChange = CinemaVCam.transform.TransformDirection(velocityChange );
+        velocityChange .y = 0;
+        rb.AddForce(velocityChange , ForceMode.Acceleration);
+    }
+
+    void Update()
+    {
+        input = new Vector3(Input.GetAxis("Horizontal"), 0f, Input.GetAxis("Vertical"));
+
+        Vector3 velocity = transform.InverseTransformDirection(rb.velocity);
+        ModelAnim.SetFloat("Velocity", velocity.z);
+
+        Vector3 lookAt = new Vector3(input.x, 0, input.z) + transform.position;
+        transform.LookAt(lookAt);
     }
 
     public void SetActive(bool active)
@@ -31,6 +44,7 @@ public class SlimeMovement : MonoBehaviour
         inputLocked = !active;
         if (active)
         {
+            ModelAnim.enabled = false;
             rb.velocity = savedVelocity;
             rb.constraints = RigidbodyConstraints.FreezeAll;
         }
@@ -39,9 +53,7 @@ public class SlimeMovement : MonoBehaviour
             rb.constraints = RigidbodyConstraints.FreezeRotationZ |
                 RigidbodyConstraints.FreezeRotationX;
             savedVelocity = rb.velocity;
+            ModelAnim.enabled = true;
         }
     }
-
-    private Vector3 GetInput() =>
-        new Vector3(Input.GetAxis("Horizontal"), 0f, Input.GetAxis("Vertical"));
 }
