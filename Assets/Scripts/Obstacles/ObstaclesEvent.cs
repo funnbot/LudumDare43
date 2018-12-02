@@ -34,7 +34,7 @@ public class ObstaclesEvent : MonoBehaviour
 		SlimeHealth slimeHealth = other.GetComponent<SlimeHealth>();
 		if (slimeHealth != null)
 		{
-			slimeHealth.Diminish();
+			slimeHealth.Kill();
 		}
 	}
 
