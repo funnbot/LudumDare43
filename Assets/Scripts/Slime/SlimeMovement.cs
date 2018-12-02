@@ -23,19 +23,21 @@ public class SlimeMovement : MonoBehaviour
     {
         if (inputLocked) return;
         Vector3 velocityChange = input * Acceleration;
-        velocityChange = CinemaVCam.transform.TransformDirection(velocityChange );
-        velocityChange .y = 0;
-        rb.AddForce(velocityChange , ForceMode.Acceleration);
+        velocityChange = CinemaVCam.transform.TransformDirection(velocityChange);
+        velocityChange.y = 0;
+        rb.AddForce(velocityChange, ForceMode.Acceleration);
     }
 
     void Update()
     {
         input = new Vector3(Input.GetAxis("Horizontal"), 0f, Input.GetAxis("Vertical"));
 
-        Vector3 velocity = transform.InverseTransformDirection(rb.velocity);
-        ModelAnim.SetFloat("Velocity", velocity.z);
+        Vector3 velocity = rb.velocity;
+        Vector3 localVelocity = transform.InverseTransformDirection(rb.velocity);
+        ModelAnim.SetFloat("Velocity", localVelocity.z);
 
-        Vector3 lookAt = new Vector3(input.x, 0, input.z) + transform.position;
+        velocity.y = 0;
+        Vector3 lookAt = velocity + transform.position;
         transform.LookAt(lookAt);
     }
 
