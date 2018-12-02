@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	664555880	MENUSELECT			\Default Work Unit\MENUSELECT	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	412697688	MENUSELECT	Y:\Documents\GitHub\LudumDare43\LudumDare43_WwiseProject\.cache\Windows\SFX\MENUSELECT_BNCE1_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\MENUSELECT		288064
+

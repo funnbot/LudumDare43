@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{284D9CFB-E10B-4D9E-814F-4F8E384EFD8A}" SchemaVersion="89">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{284D9CFB-E10B-4D9E-814F-4F8E384EFD8A}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="MENUSELECT" ID="{1FD68C3A-2667-4D02-BE92-D8371A76A1FB}">
+					<ChildrenList>
+						<Action Name="" ID="{A70A1EFD-1387-4C75-B186-355FC56CE833}" ShortID="921694867">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MENUSELECT" ID="{BE7D333F-1A01-4CCA-B95E-F791D30334E9}" WorkUnitID="{8C00DBA4-60C8-4ED6-973A-C4F60023FDEF}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
