@@ -64,32 +64,35 @@ public class View : MonoBehaviour
 #if UNITY_EDITOR
 	private void Reset()
 	{
-		string typeName = this.GetType().Name;
-		this.gameObject.name = (string.IsNullOrEmpty(typeName) ? "[View]" : "[View] ") + typeName.Remove(typeName.Length - 4);
-
-		if (this.transform.Find("[Content]") == null)
+		if (EditorUtility.DisplayDialog("Reset?", "Set defaults for view settings on components?", "Yes", "No, leave them"))
 		{
-			GameObject content = new GameObject("[Content]", typeof(RectTransform));
+			string typeName = this.GetType().Name;
+			this.gameObject.name = (string.IsNullOrEmpty(typeName) ? "[View]" : "[View] ") + typeName.Remove(typeName.Length - 4);
 
-			content.transform.SetParent(this.transform);
+			if (this.transform.Find("[Content]") == null)
+			{
+				GameObject content = new GameObject("[Content]", typeof(RectTransform));
 
-			RectTransform contentRectTransform = content.transform as RectTransform;
+				content.transform.SetParent(this.transform);
 
-			contentRectTransform.anchorMin = new Vector2(0f, 0f);
-			contentRectTransform.anchorMax = new Vector2(1f, 1f);
-			
-			contentRectTransform.offsetMin = Vector2.zero;
-			contentRectTransform.offsetMax = Vector2.zero;
+				RectTransform contentRectTransform = content.transform as RectTransform;
+
+				contentRectTransform.anchorMin = new Vector2(0f, 0f);
+				contentRectTransform.anchorMax = new Vector2(1f, 1f);
+
+				contentRectTransform.offsetMin = Vector2.zero;
+				contentRectTransform.offsetMax = Vector2.zero;
+			}
+
+			if (this.rectTransform == null)
+				this.Awake();
+
+			this.rectTransform.anchorMin = new Vector2(0f, 0f);
+			this.rectTransform.anchorMax = new Vector2(1f, 1f);
+
+			this.rectTransform.offsetMin = Vector2.zero;
+			this.rectTransform.offsetMax = Vector2.zero;
 		}
-
-		if (this.rectTransform == null)
-			this.Awake();
-
-		this.rectTransform.anchorMin = new Vector2(0f, 0f);
-		this.rectTransform.anchorMax = new Vector2(1f, 1f);
-
-		this.rectTransform.offsetMin = Vector2.zero;
-		this.rectTransform.offsetMax = Vector2.zero;
 	}
 
 	//protected override void OnDrawGizmos()
