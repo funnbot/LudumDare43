@@ -95,6 +95,7 @@ public class SceneController : MonoBehaviourSingleton<SceneController>
 #endif
 }
 
+[System.Serializable]
 public class UnityEventFloat : UnityEvent<float> { }
 
 #if UNITY_EDITOR
