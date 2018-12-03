@@ -5,6 +5,8 @@
 			<PropertyList>
 				<Property Name="AudioFilesImporter\Path" Type="string" Value="Z:\Volumes\Rocstor\Ableton Projects\SOUND DESIGN\GAME JAMS\LD43\SLIME Project\BOUNCES"/>
 				<Property Name="Event Action List\{1FD68C3A-2667-4D02-BE92-D8371A76A1FB}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{32162497-4AA7-401F-83DF-0C1565D914F1}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{9B5F38BA-54DC-4A74-883D-8F94D4631AE3}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="EventView\FilterMode1" Type="int32" Value="2"/>
 				<Property Name="ExternalSourcesInputPath" Type="string">
 					<ValueList>
@@ -41,7 +43,7 @@
 				<Property Name="ProjectExplorer\x64_Expanded_10_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_11_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_12_1" Type="string" Value=""/>
-				<Property Name="ProjectExplorer\x64_Expanded_13_1" Type="string" Value=""/>
+				<Property Name="ProjectExplorer\x64_Expanded_13_1" Type="string" Value="0B7eUklV/U6N1F8g9GBf9g=="/>
 				<Property Name="ProjectExplorer\x64_Expanded_14_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_15_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_16_1" Type="string" Value=""/>

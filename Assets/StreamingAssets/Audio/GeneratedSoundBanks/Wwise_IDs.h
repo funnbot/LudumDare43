@@ -13,6 +13,7 @@ namespace AK
 {
     namespace EVENTS
     {
+        static const AkUniqueID MENUCONFIRM = 711511264U;
         static const AkUniqueID MENUSELECT = 664555880U;
     } // namespace EVENTS
 

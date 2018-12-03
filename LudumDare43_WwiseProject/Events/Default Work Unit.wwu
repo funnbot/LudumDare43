@@ -17,6 +17,20 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="MENUCONFIRM" ID="{9B5F38BA-54DC-4A74-883D-8F94D4631AE3}">
+					<ChildrenList>
+						<Action Name="" ID="{AE34FC80-91ED-4D21-A3A9-FD20117926B4}" ShortID="425104722">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MENUCONFIRM" ID="{3460DCFD-76FD-4E07-8CC8-096CE8475C88}" WorkUnitID="{8C00DBA4-60C8-4ED6-973A-C4F60023FDEF}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
