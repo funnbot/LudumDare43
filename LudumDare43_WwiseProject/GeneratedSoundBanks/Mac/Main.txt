@@ -6,5 +6,5 @@ Event	ID	Name			Wwise Object Path	Notes
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	371191067	MENUCONFIRM	Y:\Documents\GitHub\LudumDare43\LudumDare43_WwiseProject\.cache\Mac\SFX\MENUCONFIRM1_BNCE1_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\MENUCONFIRM		336064
 	446012776	MENUSELECT	Y:\Documents\GitHub\LudumDare43\LudumDare43_WwiseProject\.cache\Mac\SFX\MENUSELECT_BNCE1_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\MENUSELECT		288064
-	587018075	SLIMEMOVE	Y:\Documents\GitHub\LudumDare43\LudumDare43_WwiseProject\.cache\Mac\SFX\SLIME_MOVE_MAIN_BNCE1_8780A51E.wem		\Actor-Mixer Hierarchy\Default Work Unit\SLIMEMOVE		193364
+	587018075	SLIMEMOVE	Y:\Documents\GitHub\LudumDare43\LudumDare43_WwiseProject\.cache\Mac\SFX\SLIME_MOVE_MAIN_BNCE1_ECA61AF5.wem		\Actor-Mixer Hierarchy\Default Work Unit\SLIMEMOVE		193364
 
