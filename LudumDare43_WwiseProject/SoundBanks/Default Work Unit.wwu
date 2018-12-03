@@ -1,12 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{AA7274E0-FCE8-41AB-96FF-6A086DEECF1F}" SchemaVersion="89">
+<WwiseDocument Type="WorkUnit" ID="{77878B16-BE4C-4BEE-8108-CED9F82703AB}" SchemaVersion="89">
 	<SoundBanks>
-		<WorkUnit Name="Default Work Unit" ID="{AA7274E0-FCE8-41AB-96FF-6A086DEECF1F}" PersistMode="Standalone">
+		<WorkUnit Name="Default Work Unit" ID="{77878B16-BE4C-4BEE-8108-CED9F82703AB}" PersistMode="Standalone">
 			<ChildrenList>
-				<SoundBank Name="Main" ID="{C7351E07-5B0D-49A0-9B4C-5203218E1F27}">
+				<SoundBank Name="Main" ID="{5AA3EE01-06A8-47BB-8FD7-9F6799DE0CB2}">
 					<ObjectInclusionList>
-						<ObjectRef Name="MENUCONFIRM" ID="{9B5F38BA-54DC-4A74-883D-8F94D4631AE3}" WorkUnitID="{284D9CFB-E10B-4D9E-814F-4F8E384EFD8A}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="MENUSELECT" ID="{1FD68C3A-2667-4D02-BE92-D8371A76A1FB}" WorkUnitID="{284D9CFB-E10B-4D9E-814F-4F8E384EFD8A}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="ITEMACQUIRE" ID="{562823D3-EA26-4122-B94A-F9F7986C8AFA}" WorkUnitID="{130FFCE3-2D2C-4470-959E-CF50053C41CF}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="MENUSELECT" ID="{BC4EE0F3-7115-42FA-A2D7-D984B38EB5B0}" WorkUnitID="{130FFCE3-2D2C-4470-959E-CF50053C41CF}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="SLIMEMOVE" ID="{854F2B80-1644-468B-897C-231EA8BD5159}" WorkUnitID="{130FFCE3-2D2C-4470-959E-CF50053C41CF}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="SLIMEDEATH" ID="{681B891B-6048-4C3D-A196-1AAEF60BFAF5}" WorkUnitID="{130FFCE3-2D2C-4470-959E-CF50053C41CF}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="SPIKEUP" ID="{25AF0E8F-C6D1-4C52-83DA-72EA3606CEBD}" WorkUnitID="{130FFCE3-2D2C-4470-959E-CF50053C41CF}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="MENUCONFIRM" ID="{E8639692-D37E-4F6A-824E-3C5AF9A540EB}" WorkUnitID="{130FFCE3-2D2C-4470-959E-CF50053C41CF}" Filter="7" Origin="Manual"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

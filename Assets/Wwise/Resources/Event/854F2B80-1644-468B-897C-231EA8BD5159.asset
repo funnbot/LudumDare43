@@ -10,8 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d08c6f7b204304e67863345351f60289, type: 3}
-  m_Name: 9B5F38BA-54DC-4A74-883D-8F94D4631AE3
+  m_Name: 854F2B80-1644-468B-897C-231EA8BD5159
   m_EditorClassIdentifier: 
-  objectName: MENUCONFIRM
-  id: 711511264
-  guid: 9B5F38BA-54DC-4A74-883D-8F94D4631AE3
+  objectName: SLIMEMOVE
+  id: 767677156
+  guid: 854F2B80-1644-468B-897C-231EA8BD5159

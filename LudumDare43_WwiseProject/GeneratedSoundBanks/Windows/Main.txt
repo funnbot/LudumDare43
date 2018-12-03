@@ -1,8 +1,16 @@
 Event	ID	Name			Wwise Object Path	Notes
 	664555880	MENUSELECT			\Default Work Unit\MENUSELECT	
 	711511264	MENUCONFIRM			\Default Work Unit\MENUCONFIRM	
+	767677156	SLIMEMOVE			\Default Work Unit\SLIMEMOVE	
+	873455047	SLIMEDEATH			\Default Work Unit\SLIMEDEATH	
+	1083615956	ITEMACQUIRE			\Default Work Unit\ITEMACQUIRE	
+	3748298090	SPIKEUP			\Default Work Unit\SPIKEUP	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	412697688	MENUSELECT	Y:\Documents\GitHub\LudumDare43\LudumDare43_WwiseProject\.cache\Windows\SFX\MENUSELECT_BNCE1_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\MENUSELECT		288064
-	1034501171	MENUCONFIRM	Y:\Documents\GitHub\LudumDare43\LudumDare43_WwiseProject\.cache\Windows\SFX\MENUCONFIRM1_BNCE1_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\MENUCONFIRM		336064
+	301919196	SLIMEDEATH	Y:\Documents\GitHub\LudumDare43\LudumDare43_WwiseProject\.cache\Windows\SFX\SLIME_DEATH1_BNCE1_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\SLIMEDEATH		405568
+	346392302	SPIKEUP	Y:\Documents\GitHub\LudumDare43\LudumDare43_WwiseProject\.cache\Windows\SFX\SPIKE_STAB_LYR2_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\SPIKEUP		128860
+	371191067	MENUCONFIRM	Y:\Documents\GitHub\LudumDare43\LudumDare43_WwiseProject\.cache\Windows\SFX\MENUCONFIRM1_BNCE1_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\MENUCONFIRM		336064
+	446012776	MENUSELECT	Y:\Documents\GitHub\LudumDare43\LudumDare43_WwiseProject\.cache\Windows\SFX\MENUSELECT_BNCE1_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\MENUSELECT		288064
+	587018075	SLIMEMOVE	Y:\Documents\GitHub\LudumDare43\LudumDare43_WwiseProject\.cache\Windows\SFX\SLIME_MOVE_MAIN_BNCE1_8780A51E.wem		\Actor-Mixer Hierarchy\Default Work Unit\SLIMEMOVE		193364
+	770509239	ITEMACQUIRE	Y:\Documents\GitHub\LudumDare43\LudumDare43_WwiseProject\.cache\Windows\SFX\ITEMACQUIRE_BNCE1_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\ITEMACQUIRE		576064
 

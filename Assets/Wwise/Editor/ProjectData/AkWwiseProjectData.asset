@@ -16,22 +16,22 @@ MonoBehaviour:
   - PhysicalPath: Virtual Acoustics/Default Work Unit.wwu
     ParentPhysicalPath: 
     guid: 113ae1a501b5e646b7bd99b70f40c1a7
-    m_lastTime: -8586578221604775808
+    m_lastTime: -8586578013914775808
     List: []
   AuxBusWwu:
   - PhysicalPath: Master-Mixer Hierarchy/Default Work Unit.wwu
     ParentPhysicalPath: 
     guid: f1b818ea21809745bd0cd35870f1e041
-    m_lastTime: -8586578221604775808
+    m_lastTime: -8586578013914775808
     List: []
   BankWwu:
   - PhysicalPath: SoundBanks/Default Work Unit.wwu
     ParentPhysicalPath: 
-    guid: e07472aae8fcab4196ff6a086deecf1f
-    m_lastTime: -8586578080724775808
+    guid: 168b87774cbeee4b8108ced9f82703ab
+    m_lastTime: -8586578004004775808
     List:
     - name: Main
-      guid: 071e35c70d5ba0499b4c5203218e1f27
+      guid: 01eea35aa806bb478fd79f6799de0cb2
       id: 3161908922
       PathAndIcons:
       - ElementName: Default Work Unit
@@ -42,11 +42,11 @@ MonoBehaviour:
   EventWwu:
   - PhysicalPath: Events/Default Work Unit.wwu
     ParentPhysicalPath: 
-    guid: fb9c4d280be19e4d814f4f8e384efd8a
-    m_lastTime: -8586578080724775808
+    guid: e3fc0f132c2d7044959ecf50053c41cf
+    m_lastTime: -8586578004004775808
     List:
     - name: MENUCONFIRM
-      guid: ba385f9bdc54744a883d8f94d4631ae3
+      guid: 929663e87ed36a4f824e3c5af9a540eb
       id: 711511264
       PathAndIcons:
       - ElementName: Default Work Unit
@@ -58,7 +58,7 @@ MonoBehaviour:
       maxDuration: 0
       minDuration: 0
     - name: MENUSELECT
-      guid: 3a8cd61f6726024dbe92d8371a76a1fb
+      guid: f3e04ebc1571fa42a2d7d984b38eb5b0
       id: 664555880
       PathAndIcons:
       - ElementName: Default Work Unit
@@ -69,29 +69,41 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
+    - name: SLIMEMOVE
+      guid: 802b4f8544168b46897c231ea8bd5159
+      id: 767677156
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SLIMEMOVE
+        ObjectType: 3
+      Path: Default Work Unit/SLIMEMOVE
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
   RtpcWwu:
   - PhysicalPath: Game Parameters/Default Work Unit.wwu
     ParentPhysicalPath: 
     guid: de3009e152f26d4280cfd36d784a2aca
-    m_lastTime: -8586578221604775808
+    m_lastTime: -8586578013914775808
     List: []
   StateWwu:
   - PhysicalPath: States/Default Work Unit.wwu
     ParentPhysicalPath: 
     guid: a98aa8ddd9fd2a4597aab69fa43b0ac3
-    m_lastTime: -8586578221604775808
+    m_lastTime: -8586578013914775808
     List: []
   SwitchWwu:
   - PhysicalPath: Switches/Default Work Unit.wwu
     ParentPhysicalPath: 
     guid: 30cdcfe7edb3414f8c546b65d6206b2f
-    m_lastTime: -8586578221604775808
+    m_lastTime: -8586578013914775808
     List: []
   TriggerWwu:
   - PhysicalPath: Triggers/Default Work Unit.wwu
     ParentPhysicalPath: 
     guid: d01ede524955fd4e8dd45f20f4605ff6
-    m_lastTime: -8586578080724775808
+    m_lastTime: -8586578013914775808
     List: []
   ExpandedItems:
   - /LudumDare43_WwiseProject
