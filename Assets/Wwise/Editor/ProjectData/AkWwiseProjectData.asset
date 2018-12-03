@@ -12,14 +12,81 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 760a60a0a554b4e0299cab514cd0125d, type: 3}
   m_Name: AkWwiseProjectData
   m_EditorClassIdentifier: 
-  AcousticTextureWwu: []
-  AuxBusWwu: []
-  BankWwu: []
-  EventWwu: []
-  RtpcWwu: []
-  StateWwu: []
-  SwitchWwu: []
-  TriggerWwu: []
-  ExpandedItems: []
+  AcousticTextureWwu:
+  - PhysicalPath: Virtual Acoustics/Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: 0b0bb8f0d48cb641b502213df987da50
+    m_lastTime: -8586578023554775808
+    List: []
+  AuxBusWwu:
+  - PhysicalPath: Master-Mixer Hierarchy/Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: 47cfb526664f764cab7b7228721347f7
+    m_lastTime: -8586578023554775808
+    List: []
+  BankWwu:
+  - PhysicalPath: SoundBanks/Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: 168b87774cbeee4b8108ced9f82703ab
+    m_lastTime: -8586578023554775808
+    List: []
+  EventWwu:
+  - PhysicalPath: Events/Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: e3fc0f132c2d7044959ecf50053c41cf
+    m_lastTime: -8586578020674775808
+    List:
+    - name: MENUCONFIRM
+      guid: 929663e87ed36a4f824e3c5af9a540eb
+      id: 711511264
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: MENUCONFIRM
+        ObjectType: 3
+      Path: Default Work Unit/MENUCONFIRM
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: MENUSELECT
+      guid: f3e04ebc1571fa42a2d7d984b38eb5b0
+      id: 664555880
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: MENUSELECT
+        ObjectType: 3
+      Path: Default Work Unit/MENUSELECT
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+  RtpcWwu:
+  - PhysicalPath: Game Parameters/Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: 97b462ba9e0d1641b117375602feeee2
+    m_lastTime: -8586578023554775808
+    List: []
+  StateWwu:
+  - PhysicalPath: States/Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: a77a3592e809874ca4b28cdab7813ce9
+    m_lastTime: -8586578023554775808
+    List: []
+  SwitchWwu:
+  - PhysicalPath: Switches/Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: 88b706bfade13e4787a2935c37ccfc54
+    m_lastTime: -8586578023554775808
+    List: []
+  TriggerWwu:
+  - PhysicalPath: Triggers/Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: c5dbc3ac5870eb46b8292774224a6c94
+    m_lastTime: -8586578023554775808
+    List: []
+  ExpandedItems:
+  - /LudumDare43_WwiseProject
+  - /LudumDare43_WwiseProject/Events
+  - /LudumDare43_WwiseProject/Events/Default Work Unit
   autoPopulateEnabled: 1
   CurrentPluginConfig: 
