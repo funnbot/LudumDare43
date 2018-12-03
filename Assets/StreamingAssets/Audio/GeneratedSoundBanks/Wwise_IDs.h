@@ -15,6 +15,7 @@ namespace AK
     {
         static const AkUniqueID MENUCONFIRM = 711511264U;
         static const AkUniqueID MENUSELECT = 664555880U;
+        static const AkUniqueID SLIMEMOVE = 767677156U;
     } // namespace EVENTS
 
     namespace BANKS
