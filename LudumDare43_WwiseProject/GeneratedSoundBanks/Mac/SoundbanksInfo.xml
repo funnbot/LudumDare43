@@ -24,8 +24,13 @@
 				<Event Id="711511264" Name="MENUCONFIRM" ObjectPath="\Events\Default Work Unit\MENUCONFIRM"/>
 				<Event Id="664555880" Name="MENUSELECT" ObjectPath="\Events\Default Work Unit\MENUSELECT"/>
 				<Event Id="767677156" Name="SLIMEMOVE" ObjectPath="\Events\Default Work Unit\SLIMEMOVE"/>
+				<Event Id="3748298090" Name="SPIKEUP" ObjectPath="\Events\Default Work Unit\SPIKEUP"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
+				<File Id="346392302" Language="SFX">
+					<ShortName>SPIKE_STAB_LYR2.wav</ShortName>
+					<Path>SFX/SPIKE_STAB_LYR2_56D34C19.wem</Path>
+				</File>
 				<File Id="371191067" Language="SFX">
 					<ShortName>MENUCONFIRM1_BNCE1.wav</ShortName>
 					<Path>SFX/MENUCONFIRM1_BNCE1_56D34C19.wem</Path>
@@ -36,7 +41,7 @@
 				</File>
 				<File Id="587018075" Language="SFX">
 					<ShortName>SLIME_MOVE_MAIN_BNCE1.wav</ShortName>
-					<Path>SFX/SLIME_MOVE_MAIN_BNCE1_ECA61AF5.wem</Path>
+					<Path>SFX/SLIME_MOVE_MAIN_BNCE1_8780A51E.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>

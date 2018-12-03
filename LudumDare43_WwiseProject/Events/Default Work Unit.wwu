@@ -45,6 +45,20 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="SPIKEUP" ID="{25AF0E8F-C6D1-4C52-83DA-72EA3606CEBD}">
+					<ChildrenList>
+						<Action Name="" ID="{925E51A1-DA0B-4E37-A308-850CB80F85E4}" ShortID="152001507">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SPIKEUP" ID="{6BF7396D-0831-423D-B011-C700713692C3}" WorkUnitID="{EB8C5D88-05C9-4230-BBB5-8F1CFBFEE044}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

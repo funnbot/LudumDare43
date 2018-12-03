@@ -7,6 +7,7 @@
 					<ObjectInclusionList>
 						<ObjectRef Name="MENUSELECT" ID="{BC4EE0F3-7115-42FA-A2D7-D984B38EB5B0}" WorkUnitID="{130FFCE3-2D2C-4470-959E-CF50053C41CF}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="SLIMEMOVE" ID="{854F2B80-1644-468B-897C-231EA8BD5159}" WorkUnitID="{130FFCE3-2D2C-4470-959E-CF50053C41CF}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="SPIKEUP" ID="{25AF0E8F-C6D1-4C52-83DA-72EA3606CEBD}" WorkUnitID="{130FFCE3-2D2C-4470-959E-CF50053C41CF}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="MENUCONFIRM" ID="{E8639692-D37E-4F6A-824E-3C5AF9A540EB}" WorkUnitID="{130FFCE3-2D2C-4470-959E-CF50053C41CF}" Filter="7" Origin="Manual"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>

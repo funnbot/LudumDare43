@@ -67,6 +67,25 @@
 						<ActiveSource Name="SLIME_MOVE_MAIN_BNCE1" ID="{6ECDE183-E904-43B7-9C9B-09CDE4C72348}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
+				<Sound Name="SPIKEUP" ID="{6BF7396D-0831-423D-B011-C700713692C3}" ShortID="822929953">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2E599B49-6B31-42BA-9882-4446B67D0358}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{26B5CF47-4F66-4C76-AB7B-7228721347F7}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="SPIKE_STAB_LYR2" ID="{A4198183-0C0D-4745-BAEF-04E527E7C4D9}" ShortID="346392302">
+							<Language>SFX</Language>
+							<AudioFile>SPIKE_STAB_LYR2.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="SPIKE_STAB_LYR2" ID="{A4198183-0C0D-4745-BAEF-04E527E7C4D9}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>
