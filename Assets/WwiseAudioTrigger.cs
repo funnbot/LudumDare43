@@ -19,7 +19,12 @@ public class WwiseAudioTrigger : MonoBehaviour
 {
 	private AkEvent _akEvent;
 
-	public void Trigger()
+	public void Trigger(string eventName)
+	{
+		AkSoundEngine.PostEvent(eventName, this.gameObject);
+	}
+
+	public void TriggerById()
 	{
 		AkSoundEngine.PostEvent(this._akEvent.data.Id, this.gameObject);
 	}

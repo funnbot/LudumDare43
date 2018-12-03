@@ -99,7 +99,7 @@ AnimationClip:
   m_Events:
   - time: 0
     functionName: Trigger
-    data: 
+    data: MENUSELECT
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
@@ -157,7 +157,7 @@ AnimationClip:
   m_Events:
   - time: 0
     functionName: Trigger
-    data: 
+    data: MENUCONFIRM
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
