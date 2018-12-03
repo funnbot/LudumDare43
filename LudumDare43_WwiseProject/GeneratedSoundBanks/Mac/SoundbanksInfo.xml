@@ -22,7 +22,6 @@
 			<Path>Main.bnk</Path>
 			<IncludedEvents>
 				<Event Id="664555880" Name="MENUSELECT" ObjectPath="\Events\Default Work Unit\MENUSELECT"/>
-				<Event Id="654743850" Name="Trigger_MENU_SELECT" ObjectPath="\Events\Default Work Unit\Trigger_MENU_SELECT" MaxAttenuation="0.000000"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
 				<File Id="412697688" Language="SFX">

@@ -1,5 +1,4 @@
 Event	ID	Name			Wwise Object Path	Notes
-	654743850	Trigger_MENU_SELECT			\Default Work Unit\Trigger_MENU_SELECT	
 	664555880	MENUSELECT			\Default Work Unit\MENUSELECT	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size

@@ -14,13 +14,7 @@ namespace AK
     namespace EVENTS
     {
         static const AkUniqueID MENUSELECT = 664555880U;
-        static const AkUniqueID TRIGGER_MENU_SELECT = 654743850U;
     } // namespace EVENTS
-
-    namespace TRIGGERS
-    {
-        static const AkUniqueID MENU_SELECT = 4203375351U;
-    } // namespace TRIGGERS
 
     namespace BANKS
     {
