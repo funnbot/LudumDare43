@@ -14,6 +14,7 @@ using UnityEditor;
 using TMPro;
 using AK;
 
+[RequireComponent(typeof(AkEvent))]
 public class WwiseAudioTrigger : MonoBehaviour
 {
 	private AkEvent _akEvent;
@@ -32,6 +33,13 @@ public class WwiseAudioTrigger : MonoBehaviour
 	//protected override void OnDrawGizmos()
 	//{
 	//}
+
+	private void Reset()
+	{
+		this._akEvent = this.GetComponent<AkEvent>();
+
+		this._akEvent.triggerList.Clear();
+	}
 #endif
 }
 
