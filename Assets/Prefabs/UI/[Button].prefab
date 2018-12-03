@@ -18,7 +18,7 @@ GameObject:
   - component: {fileID: 7408612809735469676}
   - component: {fileID: 7408612809735469678}
   - component: {fileID: 3132977692868770032}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: '[Button]'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -32,7 +32,7 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7408612809735469668}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -66,14 +66,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.81568635, g: 0.62352943, b: 0.47058827, a: 0.69803923}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: 9ea3a0a09d6b8df4097113697b5fc4af, type: 3}
   m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -258,7 +258,7 @@ MonoBehaviour:
   enableActionOnEvent: 0
   data:
     valueGuid: 
-    WwiseObjectReference: {fileID: 11400000, guid: 4a62fff62860e4e2f99cd0cf2b678a73,
+    WwiseObjectReference: {fileID: 11400000, guid: 292cb2145119f42f0921738985c72246,
       type: 2}
   m_callbackData: {fileID: 0}
   playingId: 0
@@ -290,9 +290,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _colors:
-  - {r: 1, g: 1, b: 1, a: 1}
-  - {r: 0.874, g: 0.874, b: 0.874, a: 1}
-  - {r: 0.741, g: 0.741, b: 0.741, a: 1}
+  - {r: 0.8156863, g: 0.62352943, b: 0.47058824, a: 0.69803923}
+  - {r: 0.8156863, g: 0.62352943, b: 0.47058824, a: 1}
+  - {r: 0.734, g: 0.5610866, b: 0.42346156, a: 1}
 --- !u!1 &7408612811360201817
 GameObject:
   m_ObjectHideFlags: 0
@@ -304,7 +304,7 @@ GameObject:
   - component: {fileID: 7408612811360201816}
   - component: {fileID: 7408612811360201798}
   - component: {fileID: 7408612811360201799}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -368,8 +368,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4278190080
-  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:

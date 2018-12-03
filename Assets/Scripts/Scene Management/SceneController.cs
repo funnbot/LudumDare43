@@ -44,7 +44,7 @@ public class SceneController : MonoBehaviourSingleton<SceneController>
 
 	//! Next
 	#region Next
-	public void LoadNextScene(LoadSceneMode loadSceneMode = LoadSceneMode.Single)
+	public void LoadNextScene(LoadSceneMode loadSceneMode)
 	{
 		int nextSceneBuildIndex = SceneManager.GetActiveScene().buildIndex + 1;
 
@@ -53,8 +53,9 @@ public class SceneController : MonoBehaviourSingleton<SceneController>
 			SceneManager.LoadScene(nextSceneBuildIndex, loadSceneMode);
 		}
 	}
+	public void LoadNextScene() { this.LoadNextScene(LoadSceneMode.Single); }
 
-	public void LoadNextSceneAsync(LoadSceneMode loadSceneMode = LoadSceneMode.Single)
+	public void LoadNextSceneAsync(LoadSceneMode loadSceneMode)
 	{
 		int nextSceneBuildIndex = SceneManager.GetActiveScene().buildIndex + 1;
 
@@ -63,6 +64,7 @@ public class SceneController : MonoBehaviourSingleton<SceneController>
 			this.LoadSceneAsync(nextSceneBuildIndex, loadSceneMode);
 		}
 	}
+	public void LoadNextSceneAsync() { this.LoadNextSceneAsync(LoadSceneMode.Single); }
 	#endregion
 
 	//! Previous
@@ -76,6 +78,7 @@ public class SceneController : MonoBehaviourSingleton<SceneController>
 			SceneManager.LoadScene(previousSceneBuildIndex, loadSceneMode);
 		}
 	}
+	public void LoadPreviousScene() { this.LoadPreviousScene(LoadSceneMode.Single); }
 
 	public void LoadPreviousSceneAsync(LoadSceneMode loadSceneMode = LoadSceneMode.Single)
 	{
@@ -86,6 +89,7 @@ public class SceneController : MonoBehaviourSingleton<SceneController>
 			this.LoadSceneAsync(previousSceneBuildIndex, loadSceneMode);
 		}
 	}
+	public void LoadPreviousSceneAsync() { this.LoadPreviousSceneAsync(LoadSceneMode.Single); }
 	#endregion
 
 #if UNITY_EDITOR
