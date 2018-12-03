@@ -13,22 +13,22 @@ MonoBehaviour:
   m_Name: AkWwiseProjectData
   m_EditorClassIdentifier: 
   AcousticTextureWwu:
-  - PhysicalPath: Virtual Acoustics\Default Work Unit.wwu
+  - PhysicalPath: Virtual Acoustics/Default Work Unit.wwu
     ParentPhysicalPath: 
     guid: 113ae1a501b5e646b7bd99b70f40c1a7
-    m_lastTime: -8586578189003754581
+    m_lastTime: -8586578221604775808
     List: []
   AuxBusWwu:
-  - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
+  - PhysicalPath: Master-Mixer Hierarchy/Default Work Unit.wwu
     ParentPhysicalPath: 
     guid: f1b818ea21809745bd0cd35870f1e041
-    m_lastTime: -8586578189003844337
+    m_lastTime: -8586578221604775808
     List: []
   BankWwu:
-  - PhysicalPath: SoundBanks\Default Work Unit.wwu
+  - PhysicalPath: SoundBanks/Default Work Unit.wwu
     ParentPhysicalPath: 
     guid: e07472aae8fcab4196ff6a086deecf1f
-    m_lastTime: -8586578189003784496
+    m_lastTime: -8586578198394775808
     List:
     - name: Main
       guid: 071e35c70d5ba0499b4c5203218e1f27
@@ -38,12 +38,12 @@ MonoBehaviour:
         ObjectType: 12
       - ElementName: Main
         ObjectType: 7
-      Path: Default Work Unit\Main
+      Path: Default Work Unit/Main
   EventWwu:
-  - PhysicalPath: Events\Default Work Unit.wwu
+  - PhysicalPath: Events/Default Work Unit.wwu
     ParentPhysicalPath: 
     guid: fb9c4d280be19e4d814f4f8e384efd8a
-    m_lastTime: -8586578189003993941
+    m_lastTime: -8586578198394775808
     List:
     - name: MENUSELECT
       guid: 3a8cd61f6726024dbe92d8371a76a1fb
@@ -53,39 +53,37 @@ MonoBehaviour:
         ObjectType: 12
       - ElementName: MENUSELECT
         ObjectType: 3
-      Path: Default Work Unit\MENUSELECT
+      Path: Default Work Unit/MENUSELECT
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
   RtpcWwu:
-  - PhysicalPath: Game Parameters\Default Work Unit.wwu
+  - PhysicalPath: Game Parameters/Default Work Unit.wwu
     ParentPhysicalPath: 
     guid: de3009e152f26d4280cfd36d784a2aca
-    m_lastTime: -8586578189003983969
+    m_lastTime: -8586578221604775808
     List: []
   StateWwu:
-  - PhysicalPath: States\Default Work Unit.wwu
+  - PhysicalPath: States/Default Work Unit.wwu
     ParentPhysicalPath: 
     guid: a98aa8ddd9fd2a4597aab69fa43b0ac3
-    m_lastTime: -8586578189003764550
+    m_lastTime: -8586578221604775808
     List: []
   SwitchWwu:
-  - PhysicalPath: Switches\Default Work Unit.wwu
+  - PhysicalPath: Switches/Default Work Unit.wwu
     ParentPhysicalPath: 
     guid: 30cdcfe7edb3414f8c546b65d6206b2f
-    m_lastTime: -8586578189003764550
+    m_lastTime: -8586578221604775808
     List: []
   TriggerWwu:
-  - PhysicalPath: Triggers\Default Work Unit.wwu
+  - PhysicalPath: Triggers/Default Work Unit.wwu
     ParentPhysicalPath: 
     guid: d01ede524955fd4e8dd45f20f4605ff6
-    m_lastTime: -8586578189003764550
+    m_lastTime: -8586578221604775808
     List: []
   ExpandedItems:
   - /LudumDare43_WwiseProject
   - /LudumDare43_WwiseProject/Events
   - /LudumDare43_WwiseProject/Events/Default Work Unit
-  - /LudumDare43_WwiseProject/SoundBanks
-  - /LudumDare43_WwiseProject/SoundBanks/Default Work Unit
   autoPopulateEnabled: 1
   CurrentPluginConfig: 
