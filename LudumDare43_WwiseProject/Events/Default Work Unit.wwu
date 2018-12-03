@@ -59,6 +59,34 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="SLIMEDEATH" ID="{681B891B-6048-4C3D-A196-1AAEF60BFAF5}">
+					<ChildrenList>
+						<Action Name="" ID="{47DC8267-6DC2-4FFA-90C2-801EAB03DC37}" ShortID="602897356">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SLIMEDEATH" ID="{EFEDAF4D-8338-4A91-A786-31692286FB50}" WorkUnitID="{EB8C5D88-05C9-4230-BBB5-8F1CFBFEE044}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="ITEMACQUIRE" ID="{562823D3-EA26-4122-B94A-F9F7986C8AFA}">
+					<ChildrenList>
+						<Action Name="" ID="{E82D0923-B0CD-4B4C-B74A-151D805EEB6A}" ShortID="445371418">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ITEMACQUIRE" ID="{808EDAC1-4AD7-4EA0-95F1-BEE098C393F8}" WorkUnitID="{EB8C5D88-05C9-4230-BBB5-8F1CFBFEE044}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

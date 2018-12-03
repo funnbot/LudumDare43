@@ -4,6 +4,9 @@
 		<UserProjectSettings Name="" ID="{A68C0FD5-655F-42B8-96AC-D00C9AB1D647}">
 			<PropertyList>
 				<Property Name="AudioFilesImporter\Path" Type="string" Value="Z:\Volumes\Rocstor\Ableton Projects\SOUND DESIGN\GAME JAMS\LD43\SLIME Project\BOUNCES"/>
+				<Property Name="Event Action List\{25AF0E8F-C6D1-4C52-83DA-72EA3606CEBD}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{562823D3-EA26-4122-B94A-F9F7986C8AFA}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{681B891B-6048-4C3D-A196-1AAEF60BFAF5}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{854F2B80-1644-468B-897C-231EA8BD5159}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{BC4EE0F3-7115-42FA-A2D7-D984B38EB5B0}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{E8639692-D37E-4F6A-824E-3C5AF9A540EB}\x64_Expand States" Type="string" Value=""/>

@@ -86,6 +86,44 @@
 						<ActiveSource Name="SPIKE_STAB_LYR2" ID="{A4198183-0C0D-4745-BAEF-04E527E7C4D9}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
+				<Sound Name="SLIMEDEATH" ID="{EFEDAF4D-8338-4A91-A786-31692286FB50}" ShortID="809781331">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2E599B49-6B31-42BA-9882-4446B67D0358}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{26B5CF47-4F66-4C76-AB7B-7228721347F7}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="SLIME_DEATH1_BNCE1" ID="{A8789686-C5C6-43DF-BE3A-A1C3FB0B8427}" ShortID="301919196">
+							<Language>SFX</Language>
+							<AudioFile>SLIME_DEATH1_BNCE1.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="SLIME_DEATH1_BNCE1" ID="{A8789686-C5C6-43DF-BE3A-A1C3FB0B8427}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="ITEMACQUIRE" ID="{808EDAC1-4AD7-4EA0-95F1-BEE098C393F8}" ShortID="738883654">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2E599B49-6B31-42BA-9882-4446B67D0358}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{26B5CF47-4F66-4C76-AB7B-7228721347F7}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="ITEMACQUIRE_BNCE1" ID="{8E7DB792-CB10-484F-882A-D6664AD19B50}" ShortID="770509239">
+							<Language>SFX</Language>
+							<AudioFile>ITEMACQUIRE_BNCE1.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="ITEMACQUIRE_BNCE1" ID="{8E7DB792-CB10-484F-882A-D6664AD19B50}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>
