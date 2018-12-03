@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="11" SoundbankVersion="132">
+	<RootPaths>
+		<ProjectRoot>/Users/julien/Library/Application Support/Wwise2018/Bottles/wwise/dosdevices/y:/Documents/GitHub/LudumDare43/LudumDare43_WwiseProject/</ProjectRoot>
+		<SourceFilesRoot>/Users/julien/Library/Application Support/Wwise2018/Bottles/wwise/dosdevices/y:/Documents/GitHub/LudumDare43/LudumDare43_WwiseProject/.cache/Mac/</SourceFilesRoot>
+		<SoundBanksRoot>/Users/julien/Library/Application Support/Wwise2018/Bottles/wwise/dosdevices/y:/Documents/GitHub/LudumDare43/LudumDare43_WwiseProject/GeneratedSoundBanks/Mac/</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>/Users/julien/Library/Application Support/Wwise2018/Bottles/wwise/dosdevices/y:/Documents/GitHub/LudumDare43/LudumDare43_WwiseProject/GeneratedSoundBanks/Mac</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="3161908922" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
+			<ShortName>Main</ShortName>
+			<Path>Main.bnk</Path>
+			<IncludedEvents>
+				<Event Id="711511264" Name="MENUCONFIRM" ObjectPath="\Events\Default Work Unit\MENUCONFIRM"/>
+				<Event Id="664555880" Name="MENUSELECT" ObjectPath="\Events\Default Work Unit\MENUSELECT"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="371191067" Language="SFX">
+					<ShortName>MENUCONFIRM1_BNCE1.wav</ShortName>
+					<Path>SFX/MENUCONFIRM1_BNCE1_56D34C19.wem</Path>
+				</File>
+				<File Id="446012776" Language="SFX">
+					<ShortName>MENUSELECT_BNCE1.wav</ShortName>
+					<Path>SFX/MENUSELECT_BNCE1_56D34C19.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

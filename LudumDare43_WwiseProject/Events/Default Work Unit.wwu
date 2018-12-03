@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{130FFCE3-2D2C-4470-959E-CF50053C41CF}" SchemaVersion="89">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{130FFCE3-2D2C-4470-959E-CF50053C41CF}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="MENUSELECT" ID="{BC4EE0F3-7115-42FA-A2D7-D984B38EB5B0}">
+					<ChildrenList>
+						<Action Name="" ID="{A4020EA9-D52E-422A-97C9-F5C08801ECC8}" ShortID="363858714">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MENUSELECT" ID="{8125C30A-8DEC-4952-A115-45566C5B9ECC}" WorkUnitID="{EB8C5D88-05C9-4230-BBB5-8F1CFBFEE044}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="MENUCONFIRM" ID="{E8639692-D37E-4F6A-824E-3C5AF9A540EB}">
+					<ChildrenList>
+						<Action Name="" ID="{C68988E7-E6EF-4730-A25B-445D5684400A}" ShortID="786434265">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MENUCONFIRM" ID="{E28C1947-3E06-4D8F-81D2-F38081E49841}" WorkUnitID="{EB8C5D88-05C9-4230-BBB5-8F1CFBFEE044}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
