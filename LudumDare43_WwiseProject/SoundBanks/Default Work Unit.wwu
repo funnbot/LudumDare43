@@ -5,6 +5,7 @@
 			<ChildrenList>
 				<SoundBank Name="Main" ID="{C7351E07-5B0D-49A0-9B4C-5203218E1F27}">
 					<ObjectInclusionList>
+						<ObjectRef Name="MENUCONFIRM" ID="{9B5F38BA-54DC-4A74-883D-8F94D4631AE3}" WorkUnitID="{284D9CFB-E10B-4D9E-814F-4F8E384EFD8A}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="MENUSELECT" ID="{1FD68C3A-2667-4D02-BE92-D8371A76A1FB}" WorkUnitID="{284D9CFB-E10B-4D9E-814F-4F8E384EFD8A}" Filter="7" Origin="Manual"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>

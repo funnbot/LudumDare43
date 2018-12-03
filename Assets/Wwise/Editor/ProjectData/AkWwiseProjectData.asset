@@ -28,7 +28,7 @@ MonoBehaviour:
   - PhysicalPath: SoundBanks/Default Work Unit.wwu
     ParentPhysicalPath: 
     guid: e07472aae8fcab4196ff6a086deecf1f
-    m_lastTime: -8586578198394775808
+    m_lastTime: -8586578080724775808
     List:
     - name: Main
       guid: 071e35c70d5ba0499b4c5203218e1f27
@@ -43,8 +43,20 @@ MonoBehaviour:
   - PhysicalPath: Events/Default Work Unit.wwu
     ParentPhysicalPath: 
     guid: fb9c4d280be19e4d814f4f8e384efd8a
-    m_lastTime: -8586578198394775808
+    m_lastTime: -8586578080724775808
     List:
+    - name: MENUCONFIRM
+      guid: ba385f9bdc54744a883d8f94d4631ae3
+      id: 711511264
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: MENUCONFIRM
+        ObjectType: 3
+      Path: Default Work Unit/MENUCONFIRM
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
     - name: MENUSELECT
       guid: 3a8cd61f6726024dbe92d8371a76a1fb
       id: 664555880
@@ -79,7 +91,7 @@ MonoBehaviour:
   - PhysicalPath: Triggers/Default Work Unit.wwu
     ParentPhysicalPath: 
     guid: d01ede524955fd4e8dd45f20f4605ff6
-    m_lastTime: -8586578221604775808
+    m_lastTime: -8586578080724775808
     List: []
   ExpandedItems:
   - /LudumDare43_WwiseProject
