@@ -6,19 +6,21 @@ using UnityEngine;
 public class SlimeMovement : MonoBehaviour
 {
     public float Acceleration;
+	public float MinSpeed = 1f;
     public float MaxSpeed;
     public Transform CinemaVCam;
     public Animator ModelAnim;
 
-    private Rigidbody rb;
-    private SlimeHealth health;
+    public Rigidbody Rigidbody_ { get; private set; }
+
+	private SlimeHealth health;
     private Vector3 input;
     private Vector3 savedVelocity;
     private bool inputLocked;
 
     void Start()
     {
-        rb = GetComponent<Rigidbody>();
+        Rigidbody_ = GetComponent<Rigidbody>();
         health = GetComponent<SlimeHealth>();
     }
 
@@ -28,17 +30,18 @@ public class SlimeMovement : MonoBehaviour
         Vector3 velocityChange = input * Acceleration;
         velocityChange = CinemaVCam.transform.TransformDirection(velocityChange);
         velocityChange.y = 0;
-        rb.AddForce(velocityChange, ForceMode.Force);
 
-        rb.velocity = ClampVelocity(rb.velocity, -MaxSpeed, MaxSpeed);
+        Rigidbody_.AddForce(velocityChange, ForceMode.Force);
+
+        Rigidbody_.velocity = ClampVelocity(Rigidbody_.velocity, -MaxSpeed, MaxSpeed);
     }
 
     void Update()
     {
-        input = new Vector3(Input.GetAxis("Horizontal"), 0f, Input.GetAxis("Vertical"));
+        input = new Vector3(Input.GetAxisRaw("Horizontal"), 0f, Input.GetAxisRaw("Vertical")).normalized;
 
-        Vector3 velocity = rb.velocity;
-        Vector3 localVelocity = transform.InverseTransformDirection(rb.velocity);
+        Vector3 velocity = Rigidbody_.velocity;
+        Vector3 localVelocity = transform.InverseTransformDirection(Rigidbody_.velocity);
         ModelAnim.SetFloat("Velocity", localVelocity.z);
 
         if (IsMoving())
@@ -57,26 +60,31 @@ public class SlimeMovement : MonoBehaviour
         if (active)
         {
             ModelAnim.enabled = false;
-            rb.velocity = savedVelocity;
-            rb.constraints = RigidbodyConstraints.FreezeAll;
+            Rigidbody_.velocity = savedVelocity;
+            Rigidbody_.constraints = RigidbodyConstraints.FreezeAll;
         }
         else
         {
-            rb.constraints = RigidbodyConstraints.FreezeRotationZ |
+            Rigidbody_.constraints = RigidbodyConstraints.FreezeRotationZ |
                 RigidbodyConstraints.FreezeRotationX;
-            savedVelocity = rb.velocity;
+            savedVelocity = Rigidbody_.velocity;
             ModelAnim.enabled = true;
         }
     }
 
     public bool IsMoving()
     {
-        return rb.velocity.sqrMagnitude > 1;
+        return Rigidbody_.velocity.sqrMagnitude > 1;
     }
 
     private Vector3 ClampVelocity(Vector3 velocity, float min, float max)
     {
-        velocity.x = Mathf.Clamp(velocity.x, min, max);
+		if (input.sqrMagnitude > 0f && velocity.magnitude < this.MinSpeed)
+		{
+			velocity = input * this.MinSpeed;
+		}
+
+		velocity.x = Mathf.Clamp(velocity.x, min, max);
         velocity.z = Mathf.Clamp(velocity.z, min, max);
         return velocity;
     }

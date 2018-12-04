@@ -1,5 +1,18 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!135 &463905476
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2467730630498365565}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 3.6
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &3394722018400295124
 GameObject:
   m_ObjectHideFlags: 0
@@ -17,7 +30,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &4033964180814590774
 Transform:
@@ -105,6 +118,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PondRocks
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: d6eafb10236189b4eb60fda8b16b3708, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: d6eafb10236189b4eb60fda8b16b3708, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -161,6 +178,10 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0.4430484
       objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: d6eafb10236189b4eb60fda8b16b3708, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 15a8e275a6458cc45859e0c1805eac18, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d6eafb10236189b4eb60fda8b16b3708, type: 3}
 --- !u!4 &6087303843340465898 stripped
@@ -181,30 +202,15 @@ PrefabInstance:
       propertyPath: m_Name
       value: '[Interaction Trigger] 2. Water Puddle Dialogue'
       objectReference: {fileID: 0}
-    - target: {fileID: 5639972991386263366, guid: cc324cca30bca7046986de04ac1f1cc1,
+    - target: {fileID: 5639972991386263370, guid: cc324cca30bca7046986de04ac1f1cc1,
         type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5639972991386263366, guid: cc324cca30bca7046986de04ac1f1cc1,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0.9986883
-      objectReference: {fileID: 0}
-    - target: {fileID: 5639972991386263366, guid: cc324cca30bca7046986de04ac1f1cc1,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5639972991386263366, guid: cc324cca30bca7046986de04ac1f1cc1,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.051203046
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 5639972991386263366, guid: cc324cca30bca7046986de04ac1f1cc1,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.86
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5639972991386263366, guid: cc324cca30bca7046986de04ac1f1cc1,
         type: 3}
@@ -214,7 +220,27 @@ PrefabInstance:
     - target: {fileID: 5639972991386263366, guid: cc324cca30bca7046986de04ac1f1cc1,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -1.45
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5639972991386263366, guid: cc324cca30bca7046986de04ac1f1cc1,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5639972991386263366, guid: cc324cca30bca7046986de04ac1f1cc1,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5639972991386263366, guid: cc324cca30bca7046986de04ac1f1cc1,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5639972991386263366, guid: cc324cca30bca7046986de04ac1f1cc1,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5639972991386263366, guid: cc324cca30bca7046986de04ac1f1cc1,
         type: 3}
@@ -223,33 +249,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5639972991386263366, guid: cc324cca30bca7046986de04ac1f1cc1,
         type: 3}
-      propertyPath: m_LocalScale.x
-      value: 1
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5639972991386263366, guid: cc324cca30bca7046986de04ac1f1cc1,
         type: 3}
-      propertyPath: m_LocalScale.z
-      value: 1
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5639972991386263366, guid: cc324cca30bca7046986de04ac1f1cc1,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5639972991386263360, guid: cc324cca30bca7046986de04ac1f1cc1,
         type: 3}
       propertyPath: _onTriggerEnterData.Array.data[0]._unityEvent.m_PersistentCalls.m_Calls.Array.size
       value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 5639972991386263360, guid: cc324cca30bca7046986de04ac1f1cc1,
-        type: 3}
-      propertyPath: _onTriggerEnterData.Array.data[0]._unityEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 5639972991386263360, guid: cc324cca30bca7046986de04ac1f1cc1,
-        type: 3}
-      propertyPath: _onTriggerEnterData.Array.data[0]._unityEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 5639972991386263360, guid: cc324cca30bca7046986de04ac1f1cc1,
-        type: 3}
-      propertyPath: _onTriggerEnterData.Array.data[0]._unityEvent.m_PersistentCalls.m_Calls.Array.data[2].m_Target
-      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 5639972991386263360, guid: cc324cca30bca7046986de04ac1f1cc1,
         type: 3}
@@ -259,8 +275,8 @@ PrefabInstance:
         type: 2}
     - target: {fileID: 5639972991386263360, guid: cc324cca30bca7046986de04ac1f1cc1,
         type: 3}
-      propertyPath: _onTriggerExitData.Array.data[0]._unityEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
+      propertyPath: _onTriggerEnterData.Array.data[0]._unityEvent.m_PersistentCalls.m_Calls.Array.data[3].m_MethodName
+      value: Regen
       objectReference: {fileID: 0}
     - target: {fileID: 5639972991386263360, guid: cc324cca30bca7046986de04ac1f1cc1,
         type: 3}
@@ -269,36 +285,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5639972991386263360, guid: cc324cca30bca7046986de04ac1f1cc1,
         type: 3}
-      propertyPath: _onTriggerEnterData.Array.data[0]._unityEvent.m_PersistentCalls.m_Calls.Array.data[3].m_CallState
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 5639972991386263360, guid: cc324cca30bca7046986de04ac1f1cc1,
-        type: 3}
-      propertyPath: _onTriggerEnterData.Array.data[0]._unityEvent.m_PersistentCalls.m_Calls.Array.data[3].m_Target
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 5639972991386263360, guid: cc324cca30bca7046986de04ac1f1cc1,
-        type: 3}
-      propertyPath: _onTriggerEnterData.Array.data[0]._unityEvent.m_PersistentCalls.m_Calls.Array.data[3].m_MethodName
-      value: Regen
-      objectReference: {fileID: 0}
-    - target: {fileID: 5639972991386263360, guid: cc324cca30bca7046986de04ac1f1cc1,
-        type: 3}
       propertyPath: _onTriggerEnterData.Array.data[0]._unityEvent.m_PersistentCalls.m_Calls.Array.data[3].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
-    - target: {fileID: 5639972991386263367, guid: cc324cca30bca7046986de04ac1f1cc1,
+    - target: {fileID: 5639972991386263360, guid: cc324cca30bca7046986de04ac1f1cc1,
         type: 3}
-      propertyPath: m_Size.x
-      value: 6
+      propertyPath: _onTriggerEnterData.Array.data[0]._unityEvent.m_PersistentCalls.m_Calls.Array.data[3].m_CallState
+      value: 2
       objectReference: {fileID: 0}
-    - target: {fileID: 5639972991386263367, guid: cc324cca30bca7046986de04ac1f1cc1,
-        type: 3}
-      propertyPath: m_Size.z
-      value: 6
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 5639972991386263367, guid: cc324cca30bca7046986de04ac1f1cc1, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: cc324cca30bca7046986de04ac1f1cc1, type: 3}
+--- !u!1 &2467730630498365565 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5639972991386263370, guid: cc324cca30bca7046986de04ac1f1cc1,
+    type: 3}
+  m_PrefabInstance: {fileID: 7816584717013397303}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &2467730630498365553 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5639972991386263366, guid: cc324cca30bca7046986de04ac1f1cc1,

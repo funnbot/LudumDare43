@@ -7,6 +7,11 @@ public class ObstaclesEvent : MonoBehaviour
 {
 	private Animator _animator;
 
+	public void PlaySound()
+	{
+		this.GetComponent<AudioSource>().Play();
+	}
+
 	public void PlayUp()
 	{
 		this._animator.SetTrigger("Up");
@@ -29,12 +34,19 @@ public class ObstaclesEvent : MonoBehaviour
 		this._collider.enabled = true;
 	}
 
+	[SerializeField] private Vector3 _triggerForceAddition = new Vector3(0f, 1f, 0f);
+	[SerializeField] private Vector3 _triggerForceMultiplier = new Vector3(2f, 2f, 2f);
+
 	private void OnTriggerEnter(Collider other)
 	{
 		SlimeHealth slimeHealth = other.GetComponent<SlimeHealth>();
 		if (slimeHealth != null)
 		{
 			slimeHealth.Kill();
+
+			SlimeMovement slimeMovement = slimeHealth.GetComponent<SlimeMovement>();
+
+			slimeMovement.Rigidbody_.AddForce(Vector3.Scale(((other.transform.position - this.transform.position).normalized + this._triggerForceAddition), this._triggerForceMultiplier), ForceMode.Impulse);
 		}
 	}
 

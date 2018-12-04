@@ -24,11 +24,11 @@ public class MonoBehaviourSingleton<T> : MonoBehaviour
 		{
 			Instance = this as T;
 
-			Object.DontDestroyOnLoad(Instance.gameObject);
+			Object.DontDestroyOnLoad(Instance.transform.parent);
 		}
 		else if (Instance != this)
 		{
-			Object.Destroy(Instance.gameObject);
+			Object.Destroy(this.gameObject);
 		}
 	}
 

@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: Tap Tap Collocutor
   m_EditorClassIdentifier: 
   _profileName: Tap Tap
-  _profileIcon: {fileID: 0}
+  _profileIcon: {fileID: 21300004, guid: 85f9994187f6fed488aa81c165e2905a, type: 3}

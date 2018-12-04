@@ -25,3 +25,18 @@ MonoBehaviour:
   - _sentenceText: Time to go get some water or I will become a puddle.
     _audioCover: {fileID: 0}
     _collocutor: {fileID: 11400000, guid: d3ecf6b24d489c54f9a5d00a58a75655, type: 2}
+  - _sentenceText: (About Game)
+    _audioCover: {fileID: 0}
+    _collocutor: {fileID: 11400000, guid: d3ecf6b24d489c54f9a5d00a58a75655, type: 2}
+  - _sentenceText: Game design - welllll, basically 2h left.
+    _audioCover: {fileID: 0}
+    _collocutor: {fileID: 11400000, guid: d3ecf6b24d489c54f9a5d00a58a75655, type: 2}
+  - _sentenceText: And artist has done so many great models.
+    _audioCover: {fileID: 0}
+    _collocutor: {fileID: 11400000, guid: d3ecf6b24d489c54f9a5d00a58a75655, type: 2}
+  - _sentenceText: That I had to put them somewhere :)
+    _audioCover: {fileID: 0}
+    _collocutor: {fileID: 11400000, guid: d3ecf6b24d489c54f9a5d00a58a75655, type: 2}
+  - _sentenceText: Sorry, for interupting gameplay, enjoy!
+    _audioCover: {fileID: 0}
+    _collocutor: {fileID: 11400000, guid: d3ecf6b24d489c54f9a5d00a58a75655, type: 2}

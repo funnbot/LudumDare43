@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 5639972991386263360}
   - component: {fileID: 5639972991386263367}
   m_Layer: 0
-  m_Name: Interactive NPC Template
+  m_Name: '[Interaction Trigger]'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -120,5 +120,5 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 2, y: 1, z: 2}
+  m_Size: {x: 3, y: 1, z: 3}
   m_Center: {x: 0, y: 0, z: 0}

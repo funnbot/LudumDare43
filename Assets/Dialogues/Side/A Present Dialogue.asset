@@ -34,6 +34,6 @@ MonoBehaviour:
   - _sentenceText: It will help you restore water, use it only in critical situations.
     _audioCover: {fileID: 0}
     _collocutor: {fileID: 11400000, guid: b648a3c2a6244bc4c806f044c20a553b, type: 2}
-  - _sentenceText: Thanks!
+  - _sentenceText: Thanks! (I couldn't finish inventory granny :( )
     _audioCover: {fileID: 0}
     _collocutor: {fileID: 11400000, guid: d3ecf6b24d489c54f9a5d00a58a75655, type: 2}

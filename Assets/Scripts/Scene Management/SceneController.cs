@@ -92,6 +92,11 @@ public class SceneController : MonoBehaviourSingleton<SceneController>
 	public void LoadPreviousSceneAsync() { this.LoadPreviousSceneAsync(LoadSceneMode.Single); }
 	#endregion
 
+	public void Exit()
+	{
+		Application.Quit();
+	}
+
 #if UNITY_EDITOR
 	//protected override void OnDrawGizmos()
 	//{
